@@ -18,18 +18,15 @@ It allows users to:
 
 ## 📂 Project Structure
 app/
-├── app/
-│ ├── init.py # Marks this as a Python package
-│ ├── crud.py # CRUD operations
-│ ├── database.py # DB connection and initialization
-│ ├── main.py # FastAPI entrypoint
-│ ├── models.py # SQLAlchemy models
-│ ├── schemas.py # Pydantic schemas
-│ └── services.py # Background services (future)
+app/
+├── crud.py # CRUD operations
+├── database.py # Database connection & session management
+├── main.py # FastAPI entrypoint
+├── models.py # SQLAlchemy models
+├── schemas.py # Pydantic schemas
+├── services.py # Async background tasks (future)
 │
 ├── requirements.txt # Dependencies
-├── .env.example # Environment variable template
-├── .gitignore # Ignored files (venv, .env, etc.)
 └── README.md # Documentation
 
 ---
