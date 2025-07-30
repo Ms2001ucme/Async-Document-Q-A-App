@@ -17,6 +17,7 @@ It allows users to:
 ---
 
 ## 📂 Project Structure
+```
 app/
 ├── crud.py # CRUD operations
 ├── database.py # Database connection & session management
