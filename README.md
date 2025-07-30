@@ -18,7 +18,6 @@ It allows users to:
 
 ## 📂 Project Structure
 app/
-app/
 ├── crud.py # CRUD operations
 ├── database.py # Database connection & session management
 ├── main.py # FastAPI entrypoint
@@ -27,6 +26,8 @@ app/
 ├── services.py # Async background tasks (future)
 │
 ├── requirements.txt # Dependencies
+├── .env.example # Environment variable template
+├── .gitignore # Git ignore file
 └── README.md # Documentation
 
 ---
